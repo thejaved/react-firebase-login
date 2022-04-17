@@ -48,7 +48,7 @@ const Profile = () => {
           <div className="profile_image">
             <img
               src="https://cdn.pixabay.com/photo/2021/03/30/08/06/easter-eggs-6136257_960_720.jpg"
-              alt="pixa image"
+              alt="profile"
             />
           </div>
         </div>
