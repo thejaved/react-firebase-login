@@ -94,7 +94,7 @@ const Login = () => {
               />
               <span>
                 Don't have an account -{" "}
-                <a onClick={() => setIsLoginItem(!isLoginItem)}>
+                <a href="#login" onClick={() => setIsLoginItem(!isLoginItem)}>
                   Register
                 </a>
               </span>
@@ -142,7 +142,7 @@ const Login = () => {
               />
               <span>
                 Have a account -{" "}
-                <a onClick={() => setIsLoginItem(!isLoginItem)}>
+                <a href="#login" onClick={() => setIsLoginItem(!isLoginItem)}>
                   Login
                 </a>
               </span>
