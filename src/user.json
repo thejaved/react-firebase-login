@@ -1,0 +1,25 @@
+{
+  "uid": "L0ppTMzcbaPRomPwSZZw0HKkr1I3",
+  "email": "javedkhanmailid@gmail.com",
+  "emailVerified": false,
+  "isAnonymous": false,
+  "providerData": [
+    {
+      "providerId": "password",
+      "uid": "javedkhanmailid@gmail.com",
+      "displayName": null,
+      "email": "javedkhanmailid@gmail.com",
+      "phoneNumber": null,
+      "photoURL": null
+    }
+  ],
+  "stsTokenManager": {
+    "refreshToken": "AIwUaOk4wSV9x-389N8L_gLSwgRFZmSLtPNwBmF4f1KcQy5Wsw3PdhDPI63ffI5PNmC47DhD9DQsYUyNB4OfN41FJkyp-4pupLX5XBokz3cXEScuYKgTGy8S5iLWW9Sndx661oTW4aH3gOEvxJ377QtBIoe92z8iqPHh2dGajsZ6QvM7L_mf9g6DWLl4_9kfujyEHxaxL13D4O4si7wbVvnF1nHl-ktcHA",
+    "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImFhZmE4MTJiMTY5NzkxODBmYzc4MjA5ZWE3Y2NhYjkxZTY4NDM2NTkiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZmlyLWFwcC0zYzczYiIsImF1ZCI6ImZpci1hcHAtM2M3M2IiLCJhdXRoX3RpbWUiOjE2NTAxNzM3MTIsInVzZXJfaWQiOiJMMHBwVE16Y2JhUFJvbVB3U1padzBIS2tyMUkzIiwic3ViIjoiTDBwcFRNemNiYVBSb21Qd1NaWncwSEtrcjFJMyIsImlhdCI6MTY1MDE3MzcxMiwiZXhwIjoxNjUwMTc3MzEyLCJlbWFpbCI6ImphdmVka2hhbm1haWxpZEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiamF2ZWRraGFubWFpbGlkQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.g0MmsN5n2JvKSvbh_bV1LFJcaSvWB7G9o-JTCLVD8eH22D7f1HK0OTw-MicN_y6Mp-ZuClMCD_6Txf_MFJq3uavqDPYXgML2GQkoOsf6LWaYgCsTmPLqqzOWaJm_jfWhSlMaQHbhZ49yb8wlTzuForeofiWGhTGXCf2gU0ma1Byxw8NotrRid8FuoJA41hUIgUMGmlleLoWZlmbfyQy4Ls8IudW_lYQFw3s3eSSAQQM3k2c9wOOzD2L-slpQ1ud4R-keAs3GYAUfjlGW32hD2MO4OVq5tR4m0hSn-3GCM5Yluhwm_baaTjNICCoJK8bMMTpPJwZSfGqL_4_qP8S2-A",
+    "expirationTime": 1650177314202
+  },
+  "createdAt": "1650138771232",
+  "lastLoginAt": "1650173712127",
+  "apiKey": "AIzaSyAIDj79xFHimLFIw33U5wIXXhL-C9kKRtk",
+  "appName": "[DEFAULT]"
+}

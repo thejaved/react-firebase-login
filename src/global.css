@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary: #ff5f00;
+  --blueWhite: #f3f3ff;
+  --white: #fff;
+  --black: #000;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+button {
+  border: none;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  background-color: var(--white);
+  border: 2px solid var(--white);
+  transition: 0.5s;
+}
+button:hover {
+  background-color: transparent;
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Header Css */
+.Header {
+  width: 100%;
+  height: 100px;
+  background-color: var(--primary);
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  z-index: 1000;
+}
+.Header .logo h1 {
+  color: var(--white);
+}
+.Header .nav_container nav ul li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+.Header .nav_container nav ul li a {
+  color: var(--white);
+}
+.isUser {
+  width: 50px;
+  height: 50px;
+  background-color: var(--white);
+  border-radius: 25px;
+}
+.isUser i {
+  font-size: 1.5rem;
+}
+/* Login Screen */
+.Login,
+.Register {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--blueWhite);
+}
+.Login .form_container,
+.Register .form_container {
+  width: 500px;
+  min-height: 10vh;
+  background-color: var(--white);
+  padding: 2rem;
+  border-bottom: 0.5rem solid var(--primary);
+}
+.Login .form_container form,
+.Register .form_container form {
+  display: grid;
+  gap: 2rem;
+}
+.Register .form_container form .userName_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.Login .form_container form input,
+.Register .form_container form input {
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  border-bottom: 2px solid var(--primary);
+}
+.Login .form_container form button,
+.Register .form_container form button {
+  height: 50px;
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+/* Profile */
+
+.Profile {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--blueWhite);
+}
+.profile_inner {
+  width: 90%;
+  height: 90%;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.logout_button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.logout_button button {
+  background-color: var(--primary);
+}
+.profile_image_content {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  position: absolute;
+  background-color: var(--blueWhite);
+  transform: translateY(-20px);
+}
+.profile_image_content .profile_image {
+  width: 80%;
+  height: 80%;
+  border-radius: 80%;
+  background-color: var(--white);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  overflow: hidden;
+}
+.profile_image_content .profile_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.user_details {
+  width: 100%;
+  height: calc(100% - 300px);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.user_details .user_name strong {
+  text-transform: capitalize;
+}
