@@ -23,6 +23,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/*" element={<p>TODO: Not found</p>} />
       </Routes>
     </>
   );
